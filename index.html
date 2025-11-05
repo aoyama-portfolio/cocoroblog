@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- ウェブページの文字エンコーディングを指定するために使用されます。 -->
+    <meta charset="utf-8" />
+    <!-- ウェブページのビューポート（表示領域）の設定を指定します。 -->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <!-- ウェブページのタイトルに使用されます。 -->
+    <title>cocoro雑貨店</title>
+    <!-- ウェブページの簡潔な説明や概要を提供するために使用されます。 -->
+    <meta name="description" content="こころに優しいひとときを" />
+    <!-- モバイルブラウザが電話番号の検出やリンク化を行わないように設定しています。 -->
+    <meta name="format-detection" content="telephone=no" />
+    <!-- ファビコンを設定しています。 -->
+    <link rel="icon" href="image/favicon.ico">
+    <!-- Google Fontsの「Zen Kaku Gothic New」を設定しています。 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+    <!-- reset.cssは、destyleを使用しています。 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"
+    />
+    <!-- スタイルシート（css）を呼び出しています -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+     <section class="header u-wrapper">
+        <a href="#">
+            <img src="image/logo.svg" alt="" class="header__logo">
+        </a>
+        <nav class="header nav">
+            <ul class="header__list">
+                <li class="header__item">
+                    <a href="#" class="header__link">トップ</a>
+                </li>
+                <li class="header__item">
+                    <a href="" class="header__link">商品紹介</a>
+                </li>
+                <li class="header__item">
+                    <a href="" class="header__link">ブログ</a>
+                </li>
+                <li class="header__item">
+                    <a href="" class="header__link">お問い合わせ</a>
+                </li>
+            </ul>
+        </nav>
+     </section>
+     <!-- firstview -->
+      <section class="firstview">
+        <picture>
+            <source media="(min-width: 769px)" srcset="image/firstview-pc.png">
+            <img class="firstview__img" src="image/firstView-sp.png" alt="">
+        </picture>
+        <div class="firstview__title">こころに優しいひとときを<br>
+               COCORO_BLOG</div>
+      </section>
+      <!--main left -->
+      <div class="container u-wrapper">
+        <main class="main">
+            <section class="news">
+                <div class="news__top">
+                  <div class="news_header u-sectionHeading"><!--字-->
+                   <h2 class="u-sectionTitle">最新のお知らせ</h2>
+                   <p class="news__toptext">心温まる雑貨やイベントの情報をぜひチェックしてください。
+                    <br>皆様のお越しを心よりお待ちしております。</p>
+                  </div>
+                  <div class="news__contents">
+                    <img src="image/news-pickup.png" alt="" class="news__img news__topimg">
+                    <div class="news__box">
+                    <p class="news__deta">2024.06.25</p>
+                    <h3 class="news__title firstTitle">お客様感謝デーのお知らせ</h3>
+                    <p class="news__text">日頃のご愛顧に感謝して、6月30日にお客様感謝デーを開催します。
+                     特典やプレゼントもご用意しておりますので、ぜひお越しください。</p>
+                    </div>
+                  </div>
+               </div>
+              <div class="news__content">
+                <div class="news__item">
+                    <img src="image/news1.png" alt="" class="news__img">
+                    <div class="news__box">
+                    <p class="news__deta">2024.06.20</p>
+                    <h3 class="news__title">夏季営業時間のご案内</h3>
+                    <p class="news__text">夏季期間中の営業時間が変更になります。
+                        7月1日から8月31日まで、平日は10:00〜18:00、土日は11:00〜17:00となります。</p>
+                    </div>
+                </div>
+                <div class="news__item">
+                    <img src="image/news2.png" alt="" class="news__img">
+                    <div class="news__box">
+                    <p class="news__deta">2024.06.15</p>
+                    <h3 class="news__title">ワークショップ開催のお知らせ</h3>
+                    <p class="news__text">6月20日に手作りキャンドルのワークショップを開催します。
+                        初心者の方も大歓迎です。ぜひご参加ください。</p>
+                    </div>
+                </div>
+             </section>
+             <section class="pickup"><!--－雑貨-->
+                <div class="pickup__top">
+                    <div class="pickup__header u-sectionHeading">
+                       <h2 class="u-sectionTitle">おすすめ雑貨特集</h2>
+                       <p class="pickup__text">こころに優しい雑貨たちを厳選してご紹介します。
+                        <br>新しいお気に入りを見つけてください。</p>
+                    </div>
+                    <div class="pickup__contents">
+                        <img src="image/special-pickup.png" alt="" class="pickup__img pickup__topimg">
+                        <p class="pickup__deta">2024.06.10</p>
+                        <h3 class="pickup__title firstTitle ">新作アクセサリーのご紹介</h3>
+                        <p class="pickuptext">手作りの新作アクセサリーが入荷しました。
+                            自然のモチーフを取り入れたデザインで、こころに優しいひとときをお届けします。</p>
+                    </div>
+                </div>
+                <div class="pickup__content">
+                <div class="pickup__item">
+                    <img src="image/special1.png" alt="" class="pickup__img">
+                    <div class="pickup__box">
+                    <p class="pickup__deta">2024.06.20</p>
+                    <h3 class="pickup__title">サマーセールのお知らせ</h3>
+                    <p class="pickup__text">6月10日からサマーセールを開催いたします。
+                        店内の全商品が20％オフになります。ぜひこの機会にお立ち寄りください。</p>
+                    </div>
+                </div>
+                <div class="pickup__item">
+                    <img src="image/special2.png" alt="" class="pickup__img">
+                    <div class="pickup__box">
+                    <p class="pickup__deta">2024.06.15</p>
+                    <h3 class="pickup__title">新商品入荷のお知らせ</h3>
+                    <p class="pickup__text">新しいアイテムが入荷しました。
+                        優しい色合いの陶器や手作りのキャンドルなど、心温まる雑貨をぜひご覧ください。</p>
+                    </div>
+                <div class="main__more">
+                  <p class="more__text">
+                    <a href="#" class="more__link">その他の記事はこちら
+                        <img src="image/arrow.svg" alt="" class="more__linkimg">
+                    </a>
+                  </p>
+                </div>
+             </section>
+        </main>
+        <aside class="sidebar">
+            <!-- category -->
+            <section class="category">
+                <div class="category__top">
+                    <div class="u-sectionHeading">
+                      <h2 class="u-sectionTitle">商品カテゴリ</h2>
+                      <p class="category__text">心を込めた商品を各カテゴリでご紹介</p>
+                    </div>
+                    <p class="category__linktext">
+                        <a href="" class="category__link">こころ雑貨の商品を全てみる
+                            <img src="image/arrow.svg" alt="" class="cotegory__linkimg">
+                        </a>
+                    </p>
+                </div>
+                <div class="category__content">
+                    <ul class="category__list">
+                        <li class="category__item">
+                            <a href="" class="category__btnlink">
+                                <img src="image/category1.png" alt="" class="category__btnlinkimg">
+                                <p class="category__btnlinktext">食器・キッチン用品</p>
+                            </a>
+                        </li>
+                        <li class="category__item">
+                            <a href="" class="category__btnlink">
+                                <img src="image/category2.png" alt="" class="category__btnlinkimg">
+                                <p class="category__btnlinktext">アクセサリー</p>
+                            </a>
+                        </li>
+                        <li class="category__item">
+                            <a href="" class="category__btnlink">
+                                <img src="image/category3.png" alt="" class="category__btnlinkimg">
+                                <p class="category__btnlinktext">インテリア雑貨</p>
+                            </a>
+                        </li>
+                        <li class="category__item">
+                            <a href="" class="category__btnlink">
+                                <img src="image/category4.png" alt="" class="category__btnlinkimg">
+                                <p class="category__btnlinktext">ステーショナリー</p>
+                            </a>
+                        </li>
+                        <li class="category__item">
+                            <a href="" class="category__btnlink">
+                                <img src="image/category5.png" alt="" class="category__btnlinkimg">
+                                <p class="category__btnlinktext">ガーデニング用品</p>
+                            </a>
+                        </li>
+                        <li class="category__item">
+                            <a href="" class="category__btnlink">
+                                <img src="image/category6.png" alt="" class="category__btnlinkimg">
+                                <p class="category__btnlinktext">その他雑貨
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="category__search">
+                        <form action="" method="get">
+                          <input type="search" name="search" class="search__input">
+                          <button class="search__button" type="button" name="submit">検索</button>
+                        </form>
+                    </div>
+                    <img src="image/category-search.png" alt="" class="search__img">
+                </div>
+            </section>
+            <!-- poplarity -->
+            <section class="popularity">
+                <div class="popularity__top">
+                    <div class="u-sectionHeading">
+                        <h2 class="u-sectionTitle">人気記事</h2>
+                      <div class="popularity__linktext">
+                         <a href="#" class="popularity__link">その他の記事はこちら
+                        <img src="image/arrow.svg" alt="" class="more__linkimg">
+                         </a>
+                      </div>
+                    </div>
+                </div>
+                    <dl class="popularity__list">
+                        <div class="popularity__item">
+                            <dt class="popularity__deta">2024.06.12</dt>
+                            <dd class="popularity__text">新作コレクション紹介</dd>
+                        </div>
+                        <div class="popularity__item">
+                            <dt class="popularity__deta">2024.06.07</dt>
+                            <dd class="popularity__text">人気アクセサリーベスト10</dd>
+                        </div>
+                        <div class="popularity__item">
+                            <dt class="popularity__deta">2024.06.02</dt>
+                            <dd class="popularity__text">キッチン雑貨コレクション</dd>
+                        </div>
+                        <div class="popularity__item">
+                            <dt class="popularity__deta">2024.05.30</dt>
+                            <dd class="popularity__text">ガーデニング用品特集</dd>
+                        </div>
+                        <div class="popularity__item">
+                            <dt class="popularity__deta">2024.05.25</dt>
+                            <dd class="popularity__text">ワークショップ体験</dd>
+                        </div>
+                        <div class="popularity__item">
+                            <dt class="popularity__deta">2024.05.20</dt>
+                            <dd class="popularity__text">インテリアアイデア10選</dd>
+                        </div>
+                    </dl>
+            </section>
+            <section class="post">
+                <div class="post__top">
+                    <div class="u-sectionHeading">
+                        <h2 class="u-sectionTitle"><img src="image/facebook.png" alt="">
+                        投稿記事</h2>
+                        <div class="post__linktext">
+                            <a href="" class="post__link">
+                                全てのポストを見る
+                        <img src="image/arrow.svg" alt="" class="more__linkimg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </section>
+        </aside>
+      </div>
+  </body>
+  <footer class="footer">
+    <div class="footer__contents">
+        <div class="footer__left">
+            <a href="" class="footer__logo">
+                <img src="image/logo.svg" alt="">
+            </a>
+            <p class="footer__text">日常に優しさと温もりを届ける雑貨店</p>
+            <p class="footer__copy">©cocorozakka</p>
+        </div>
+        <div class="footer__center">
+            <h3 class="footer__title">店舗情報</h3>
+            <ul class="footer__list">
+                <li class="footer__item">住所: 東京都渋谷区神南1-1-1</li>
+                <li class="footer__item">営業時間: 10:00〜19:00</li>
+                <li class="footer__item">定休日: 水曜日</li>
+                <li class="footer__item">電話番号: 03-1234-5678</li>
+                <li class="footer__item">メール: info@cocorozakka.jp</li>
+            </ul>
+        </div>
+        <div class="footer__right">
+            <h3 class="footer__title">MENU</h3>
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a href="" class="footer__link">ホーム</a>
+                </li>
+                <li class="footer__item">
+                    <a href="" class="footer__link">商品紹介</a>
+                </li>
+                <li class="footer__item">
+                    <a href="" class="footer__link">ブログ</a>
+                </li>
+                <li class="footer__item">
+                    <a href="" class="footer__link">お問い合わせ</a>
+                </li>
+                <li class="footer__item">
+                    <a href="" class="footer__link">プライバシーポリシー</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </footer>
+</html>
