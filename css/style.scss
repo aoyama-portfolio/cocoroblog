@@ -122,13 +122,13 @@ main left
 .container {
     display: flex;
     gap: 40px;
+    padding-top: 60px;
 }
 .main {
     width: 70%;
     display: flex;
     flex-direction: column;
     gap: 56px;
-    padding-top: 60px;
 }
 .news {
     display: flex;
